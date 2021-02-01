@@ -203,10 +203,12 @@ body {
     margin: 0 3px;
     margin-top: 10px;
     cursor: pointer;
+    -ms-filter: contrast(5%);
     filter: contrast(5%);
     transition: all 0.2s ease-out;
 }
 .media:hover {
+    -ms-filter:none;
     filter: none;
 }
 
@@ -911,6 +913,7 @@ body {
     background-size: 99%;
     background-repeat: no-repeat;
     background-position: center;
+    -ms-filter: contrast(80%);
     filter: contrast(80%);
     /* border: 1px solid #333; */
     margin: 0 auto 0 auto;
@@ -987,6 +990,7 @@ body {
     .cont-icon-close {
         width: 100px; 
         height: 35px;
+        -ms-filter: opacity(0.3);
         filter: opacity(0.3);
         transition: filter 0.3s ease-out;    
     }
@@ -994,6 +998,7 @@ body {
         width: 30px;
     }
     .cont-icon-close:hover {
+        -ms-filter: opacity(1);
         filter: opacity(1);
     }
     .date-article {
@@ -1174,6 +1179,7 @@ body {
       
       }
       .fas:hover {
+        -ms-filter: brightness(80%); 
         filter: brightness(80%); 
       }
 
@@ -1414,6 +1420,7 @@ body {
 }
 
 .map {
+    -ms-filter: grayscale(0.8);
     filter: grayscale(0.8);
 }
 
