@@ -390,7 +390,7 @@ body {
 
 .bg-img {
 
-    background-image: url(/RESSOURCES/Grand-Hyatt-Goa-India-3.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/Grand-Hyatt-Goa-India-3.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -622,7 +622,7 @@ body {
 }
 
 .bg-img.propos {
-    background-image: url(/RESSOURCES/openSpace1.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/openSpace1.jpg);
 }
 .bloc-filter.propos {
     background-color: rgba(7,15,19,0.75);
@@ -764,31 +764,31 @@ body {
 }
 
 .cont-img-real.one {
-    background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/Grand-Hyatt-Goa-India-3.jpg);
 }
 
 .cont-img-real.two {
    
-    background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
     
 
 }
 .cont-img-real.three {
    
-    background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/arc\ de\ seine\ interieur.jpg);
     
 
 }
 .cont-img-real.four {
     
-    background-image: url(/RESSOURCES/Opera\ victoir.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/Opera\ victoir.jpg);
    
 
 }
 .cont-img-real.five {
     width: 100%;
     height: 165px;
-    background-image: url(/RESSOURCES/1719\ cognac.jpeg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/1719\ cognac.jpeg);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center top -25px;
@@ -799,7 +799,7 @@ body {
 .cont-img-real.six {
     width: 100%;
     height: 165px;
-    background-image: url(/RESSOURCES/eh\ universo.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/eh\ universo.jpg);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center top -25px;
@@ -898,7 +898,7 @@ body {
     width: 100px;
     height: 120px;
 
-    background-image: url(/RESSOURCES/iconesReal/light-bulb.png);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/light-bulb.png);
     background-size: 99%;
     background-repeat: no-repeat;
     background-position: center;
@@ -908,16 +908,16 @@ body {
     
 }
 .icon-real.prod {
-    background-image: url(/RESSOURCES/iconesReal/microphone.png);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/microphone.png);
 }
 .icon-real.cloud {
-    background-image: url(/RESSOURCES/iconesReal/cloud-computing.png);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/cloud-computing.png);
 }
 .icon-real.contrat {
-    background-image: url(/RESSOURCES/iconesReal/document.png);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/document.png);
 }
 .icon-real.diff {
-    background-image: url(/RESSOURCES/iconesReal/volume.png);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/volume.png);
 }
 .ttr-cont {
     position: absolute;
@@ -1010,7 +1010,7 @@ body {
         height: 355px;
        
         overflow: hidden;
-        background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+        background-image: url(/SWAN-MUSIC/RESSOURCES/First-interior-view-1.jpg);
         background-size: cover;
         background-position: center;
 
