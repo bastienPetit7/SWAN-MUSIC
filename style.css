@@ -913,7 +913,7 @@ body {
     background-size: 99%;
     background-repeat: no-repeat;
     background-position: center;
-    /* -ms-filter: contrast(80%); */
+    -ms-filter: contrast(80%);
     filter: contrast(80%);
     /* border: 1px solid #333; */
     margin: 0 auto 0 auto;
@@ -959,9 +959,9 @@ body {
         
     }
     .main.main-post-single {
-        padding: 0 25px;
+        padding: 0 25px 60px;
         max-width: 940px;
-        margin: 0 auto 40px;
+        margin: 0 auto 20px;
         
         
     }
@@ -1044,6 +1044,7 @@ body {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        padding: 20px 0px;
     }
     .extrait-audio {
         outline: none;
@@ -1058,7 +1059,7 @@ body {
         /* font-family: 'PT Serif',serif; */
         line-height: 21px;
         text-transform: uppercase;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 20px;
         /* font-weight: bold; */
     }    
@@ -1420,7 +1421,7 @@ body {
 }
 
 .map {
-    /* -ms-filter: grayscale(0.8); */
+    -ms-filter: grayscale(0.8);
     filter: grayscale(0.8);
 }
 
