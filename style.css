@@ -5,16 +5,17 @@
 }
 
 body {
-    font-family: 'Steelfish','Poppins', sans-serif;
+    font-family: 'Steelfishregular','Poppins', sans-serif;
     background: #f1f1f1;
     height: 100vh;
     
 }
 @font-face {
     font-family: 'steelfishregular';
-    src: url('steelfish_rg-webfont.woff2') format('woff2'),
-         url('steelfish_rg-webfont.woff') format('woff');
-    font-weight: normal;
+    src: url('/SWAN-MUSIC/RESSOURCES/steelfish_rg-webfont.woff2') format('woff2'),
+         url('/SWAN-MUSIC/RESSOURCES/steelfish_rg-webfont.woff') format('woff'),
+         url('/SWAN-MUSIC/RESSOURCES/steelfish_rg.ttf') format('truetype');
+    font-weight: 100;
     font-style: normal;
 
 }
