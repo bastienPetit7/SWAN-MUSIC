@@ -19,7 +19,7 @@ body {
     width: 290px;
     height: 100vh;
     min-height: 1000px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     background-color: #070f13;
     position: fixed;
     z-index: 5;
