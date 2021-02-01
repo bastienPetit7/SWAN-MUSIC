@@ -294,7 +294,7 @@ body {
 
     .burger-container {
         display: flex;
-        left: 93%;
+        left: 91%;
         top: 20px;
     }
     /* Media Menu Nav */
@@ -913,7 +913,7 @@ body {
     background-size: 99%;
     background-repeat: no-repeat;
     background-position: center;
-    -ms-filter: contrast(80%);
+    /* -ms-filter: contrast(80%); */
     filter: contrast(80%);
     /* border: 1px solid #333; */
     margin: 0 auto 0 auto;
@@ -1420,7 +1420,7 @@ body {
 }
 
 .map {
-    -ms-filter: grayscale(0.8);
+    /* -ms-filter: grayscale(0.8); */
     filter: grayscale(0.8);
 }
 
