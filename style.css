@@ -1049,7 +1049,7 @@ body {
 }
 
 /* ----- PAGES CLIENT ARTICLE ------- */
-
+    
     .main-container.client {
         width: 100%;
         height: 100%;
@@ -1173,7 +1173,7 @@ body {
         background: #f2f3f5;
         border-radius: 20px;
         position: relative;
-        /* box-shadow: 0 15px 30px 5px rgba(0,0,0,0.3); */
+       
       }
       
       /* Lecteur Audio Progress */
@@ -1262,7 +1262,6 @@ body {
           left: 18px;
           width: 20px;
           height: 100%;
-          /* margin-left: -21px; */
           margin-right: 5px;
           line-height: 100%;
           
@@ -1289,11 +1288,15 @@ body {
 
 @media screen and (max-width: 860px){
 
+    .main-bloc.client {
+        height:900px; 
+    }
     
     .main.main-post-single {
         padding: 0 ;
         max-width: 940px;
         margin: 0 auto 20px;
+        position: static;
     }
         
     .ps-article {
@@ -1302,10 +1305,40 @@ body {
     .extrait {
         margin-top: 50px;
         padding-left: 25px;
+    }        
+    .volume-container{
+        display: none;
+    }
+    .all-progress-content{
+        width: 120px;
+    }
+    .progress-container{
+        width: 80px;
+    }
+    .player-container{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .main-content.client {
+        height: 980px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main-bloc.client {
+        height:950px; 
     }
 
-        
 }
+@media screen and (max-width: 340px) {
+    .main-bloc.client {
+        height:1050px; 
+    }
+    .main-content.client {
+        height: 1050px;
+    }
+}
+
 
 /* --------- PAGE ACTUALITES ----------- */
 .bg-img.propos.actu {
