@@ -850,14 +850,14 @@ body {
 }
 
 .cont-img-real.one {
-    background-image: url(/SWAN-MUSIC/RESSOURCES/Grand-Hyatt-Goa-India-3.jpg);
+    background-image: url(/SWAN-MUSIC/RESSOURCES/First-interior-view-1.jpg);
 }
 
 .cont-img-real.two {
    
     background-image: url(/SWAN-MUSIC/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+    background-position: center top -50px
     
-
 }
 .cont-img-real.three {
    
@@ -1397,13 +1397,7 @@ body {
     height: 522px;
     background-color: #fff;
     margin: 12px;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
     text-align: center;
-    transition: transform 0.3s ease-out;
-}
-
-.cartes-container .item:hover {
-    /* transform: translateY(-5px); */
 }
 
 .cont-img-real.actu {
@@ -1419,23 +1413,23 @@ body {
     opacity: 0.85;
 }
 
-.cont-img-real.one {
+.cont-img-real.actu.one {
     background-image: url(/SWAN-MUSIC/RESSOURCES/First-interior-view-1.jpg);
 }
 
-.cont-img-real.two {
+.cont-img-real.actu.two {
    
     background-image: url(/SWAN-MUSIC/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
     
 
 }
-.cont-img-real.three {
+.cont-img-real.actu.three {
    
     background-image: url(/SWAN-MUSIC/RESSOURCES/arc\ de\ seine\ interieur.jpg);
     
 
 }
-.cont-img-real.four {
+.cont-img-real.actu.four {
     
     background-image: url(/SWAN-MUSIC/RESSOURCES/Opera\ victoir.jpg);
    
@@ -1556,24 +1550,74 @@ body {
     
 }
 @media screen and ( max-width: 500px){
+   
     .cont-real-carte.actu h2 {
         font-size: 50px;
-        letter-spacing: 14px;
+        letter-spacing: 5px;
+        color: #070f13;
     }
     .bg-img.propos.actu{
         height: 190px;
+        background-image: none;
     }
     .bloc-filter.propos.actu{
         height: 190px;
+        display: none;
+    }
+    .cont-real-carte.actu hr {
+        margin-bottom: 20px;
     }
 }
 @media screen and ( max-width: 415px) {
     .cartes-container .item.actu {
         width: 100%;
+        height: 423px;
         margin: 20px 0px;
     }
-    .cont-real-carte.actu hr {
-        margin-bottom: 85px;
+    /* .cont-real-carte.actu hr {
+        margin-bottom: 30px;
+    } */
+    .cont-img-real.actu {
+        height: 160px;
+    }
+    .cont-img-real.actu.one{
+       background-position: center top -50px;
+    }
+    .cont-img-real.actu.two{
+        background-position: center top -90px;
+    }
+     .cont-img-real.actu.three{
+        background-position: center top -20px;
+    }
+     .cont-img-real.actu.four{
+        background-position: center top -30px;
+    }
+    .cont-img-real.actu.five {
+        height: 160px;
+        background-size: 60%;
+        background-position: center top -30px ;
+    }
+    .cont-img-real.actu.six {
+        height: 160px;
+        background-size: 60%;
+        background-position: center top -30px ;
+    }
+    .btn-carte {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #c2c4c6;
+        line-height: 37px;
+        font-size: 38px;
+    }
+    .span-btn-carte {
+        display: none;
+    }
+    .cartes-container .item.actu p {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .cartes-container .title-actu{
+        font-size: 20px;
     }
 
 }
