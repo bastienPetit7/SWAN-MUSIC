@@ -71,7 +71,7 @@ body {
 }
 
 .icon-deco {
-    color: rgba(170, 170, 170, 0.419);
+    color: rgba(170, 170, 170, 0.419) !important;
     display: block;
     text-align: center;
     letter-spacing: 1px;
@@ -464,7 +464,7 @@ body {
     letter-spacing: 1px;
 }
 .icon-deco.deco3 {
-    color: #f1f1f1;
+    color: #f1f1f1 !important;
     margin-bottom: 20px;
 
 }
@@ -606,7 +606,7 @@ body {
     }
     .icon-deco.deco6{
         display: block;
-        color: #919394;
+        color: #919394 !important;
         margin-top: 32px;
         letter-spacing: 0px;
         font-size: 9px;
@@ -669,6 +669,9 @@ body {
     .main-content {
         height: 1110px;
     }
+    .nom-swan {
+        display: none;
+    }
 }
 @media screen and ( max-width: 378px) {
     .main-content {
@@ -688,11 +691,9 @@ body {
     .logo {
         margin-left: 1px ;
     }
-    .nom-swan {
-        display: none;
-    }
+    
     .burger-container {
-        left: 75%%;
+        left: 75%;
     }
 }
 @media screen and ( max-width: 290px) {
@@ -795,8 +796,6 @@ body {
 }
 
 .cont-real-carte h2 {
-   
-   
     padding-top: 40px;
     font-size: 45px;
     letter-spacing: 5px;
@@ -1047,8 +1046,32 @@ body {
        letter-spacing: 8px;
     }
 }
+@media screen and ( max-width: 320px){
+    .cont-real-carte h2 {
+        font-size: 35px;
+    }
+    .cartes-container .item {
+        height: 380px;
+    }
+    .cartes-container .item h3 {
+        font-size: 22px;
+    }
+    .cartes-container .item p {
+        font-size: 17px;
 
-/* ----- PAGES CLIENT ARTICLE ------- */
+    }
+    .cont-img-real.two {
+        background-position: center top -10px;
+    }
+    .cont-img-real.five {
+        background-position: center top;
+    }
+    .cont-img-real.six {
+        background-position: center top;
+    }
+}
+
+/* ----- PAGE CLIENT ARTICLE ------- */
     
     .main-container.client {
         width: 100%;
@@ -1298,6 +1321,11 @@ body {
         margin: 0 auto 20px;
         position: static;
     }
+    .post-single-illu {  
+        height: 260px; 
+        background-position: center top -170px;
+
+    }
         
     .ps-article {
         padding: 30px 25px 0;
@@ -1318,10 +1346,19 @@ body {
     .player-container{
         width: 220px;
     }
+
 }
 @media screen and (max-width: 430px) {
     .main-content.client {
         height: 980px;
+    }
+    .post-single-illu {  
+        height: 200px; 
+        background-position: center top -40px;
+
+    }
+    .ps-title{
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 380px) {
@@ -1336,6 +1373,14 @@ body {
     }
     .main-content.client {
         height: 1050px;
+    }
+    .post-single-illu {  
+        height: 180px; 
+        background-position: center top -40px;
+
+    }
+    .ps-title{
+        font-size: 30px;
     }
 }
 
@@ -1420,7 +1465,7 @@ body {
 .cont-img-real.actu.two {
    
     background-image: url(/SWAN-MUSIC/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
-    
+    background-position: center top ;
 
 }
 .cont-img-real.actu.three {
@@ -1621,10 +1666,33 @@ body {
     }
 
 }
-@media screen and ( max-width: 290px) {
+@media screen and ( max-width: 320px) {
     .cont-real-carte.actu h2{
         font-size: 40px;
     }
+    .cartes-container .item.actu {
+        
+        height: 443px;
+        margin: 20px 0px;
+    }
+    .cont-img-real.actu.one{
+        background-position: center top -20px;
+     }
+     .cont-img-real.actu.two{
+         background-position: center top -40px;
+     }
+      .cont-img-real.actu.three{
+         background-position: center top ;
+     }
+      .cont-img-real.actu.four{
+         background-position: center top ;
+     }
+     .cont-img-real.actu.five {
+         background-position: center top  ;
+     }
+     .cont-img-real.actu.six {
+         background-position: center top  ;
+     }
 }
 
 
@@ -1663,7 +1731,7 @@ body {
     padding-top: 20px;
 }
 .icon-deco.deco4 {
-    color: rgb(142, 140, 140);
+    color: rgb(142, 140, 140) !important;
 }
 
 .main-contact {
