@@ -766,17 +766,25 @@ body {
     height: 40vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: #fff;
     
     /* overflow: hidden; */
 }
 
+
 .mh-container.real h2 {
     color: black;
 }
+
 .mh-container.real p {
     color: black;
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.mh-container.real .sous-titre-real {
+    font-size: 20px;
 }
 .mh-container.real span {
     color: black;
@@ -798,6 +806,7 @@ body {
 .cont-real-carte h2 {
     padding-top: 40px;
     font-size: 45px;
+    font-weight: 100;
     letter-spacing: 5px;
     margin-bottom: 20px;
     
@@ -946,83 +955,47 @@ body {
     color: #000000;
 }
 
-/* --- PROCESSUS --- */
+/* ---- Nos Clients ----*/
 
-.process-cont {
+.client-logo-cont {
     width: 100%;
     height: auto;
-    background: #fff;
     text-align: center;
+    background-color: #fff;
 }
-.process-cont h3 {
-    font-size: 35px;
-    margin-bottom: 60px;
-    padding-top: 50px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-.list-process {
-    width: 100%;
-    height: auto;
-    padding-bottom: 70px;
-}
-.list-process li {
-    display: inline-block;
-    font-size: 22px;
+.client-logo-cont h3 {
+    font-size: 50px;
+    margin: 30px 0 30px;
     font-weight: 100;
-    width: 120px;
-    height: 200px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 20px;
-    position: relative;
-    /* border: 1px solid #333; */
-
+    letter-spacing: 3px;
+    display: block;
+    padding: 20px;
 }
-.icon-real {
-    width: 100px;
-    height: 120px;
-
-    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/light-bulb.png);
-    background-size: 99%;
-    background-repeat: no-repeat;
-    background-position: center;
-    -ms-filter: contrast(80%);
-    filter: contrast(80%);
-    /* border: 1px solid #333; */
-    margin: 0 auto 0 auto;
-    
+.list-client-logo {
+    width: 60%;
+    height: auto;
+    margin: 0px auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
-.icon-real.prod {
-    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/microphone.png);
+.logo-cont {
+    width: 140px;
+    height: 140px;
+    /* background-color: aliceblue; */
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.icon-real.cloud {
-    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/cloud-computing.png);
-}
-.icon-real.contrat {
-    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/document.png);
-}
-.icon-real.diff {
-    background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/volume.png);
-}
-.ttr-cont {
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    /* border: 1px solid #333; */
-}
-.ttr-cont h4 {
-    text-align: center;
-    margin-bottom: 5px;
+.logo-cont img {
+    width: 70%;
+    filter: grayscale(1);
 }
 
-.ttr-cont  p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    letter-spacing: 0px;
-    text-transform: none;
-
-}
 /* Media Realisation */
 
 @media screen and (max-width: 860px) {
@@ -1048,26 +1021,7 @@ body {
        font-size: 45px;
        letter-spacing: 8px;
     }
-    .process-cont h3 {
-        font-size: 33px;
-        margin-bottom: 40px;
-        padding-top: 50px;
-       
-        letter-spacing: 3px;
-    }
-    .icon-real {
-        width: 80px;
-        height: 100px;
-    }
-    .ttr-cont h4 {
-        font-size: 19px;
-    }   
-    .ttr-cont  p {
-        font-size: 14px;
-    }
-    .list-process {
-        padding-bottom: 0px;
-    }
+    
    
 }
 @media screen and ( max-width: 320px){
@@ -1102,17 +1056,22 @@ body {
         display: block;
 
     }
-    .p-acti-1{
+    .mh-container.acti {
+        height: auto;
+    }
+    p.p-acti-1{
         text-align: justify;
-        margin: 0 100px;
+        margin: 0 150px;
+        font-size: 17px;
     }
     .mission-container {
-        width: 70%;
+        width: 50%;
         height: 350px;
-        margin: 40px auto 20px auto;  
+        margin: 40px auto 10px auto;  
     }
     .mission-container h3{
         font-size: 30px;
+        font-weight: 100;
         text-align: center;
         letter-spacing: 4px;
         margin-bottom: 35px;
@@ -1125,9 +1084,134 @@ body {
     }
     .item-mission {
         margin: 15px 0;
-        font-size: 17px;
+        font-size: 15px;
         font-family: 'PT Serif', sans-serif;
         text-align: left;
+    }
+    .liste-pres-acti{
+        width: 90%;
+        height: auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto 20px;
+        text-align: center;
+        list-style-type: none;
+        position: relative;
+    }
+    .pres-acti-item{
+        width: 350px;
+        height: 430px;
+        display: inline-block;
+        padding: 10px;
+        margin: 10px 10px;
+    }
+    .carte-pres-acti {
+        width: 100%;
+        height: 180px;
+    }
+    .carte-pres-acti img {
+        width: 100%;
+        filter: grayscale(0.7);
+    }
+    .acti-pres-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        font-size: 25px;
+        letter-spacing: 3px;
+        font-weight: 100;
+        margin: 20px 0;
+
+    }
+    .acti-pres-content{
+        height: 140px;
+    }
+    .acti-pres-content p{
+        font-family: 'PTSerif', serif;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    
+    /* --- PROCESSUS --- */
+
+    .process-cont {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        text-align: center;
+    }
+    .process-cont h3 {
+        font-size: 35px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        padding-top: 50px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .list-process {
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .list-process li {
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 100;
+        width: 120px;
+        height: 200px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0 20px;
+        position: relative;
+        /* border: 1px solid #333; */
+
+    }
+    .icon-real {
+        width: 100px;
+        height: 120px;
+
+        background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/light-bulb.png);
+        background-size: 99%;
+        background-repeat: no-repeat;
+        background-position: center;
+        -ms-filter: contrast(80%);
+        filter: contrast(80%);
+        /* border: 1px solid #333; */
+        margin: 0 auto 0 auto;
+        
+    }
+    .icon-real.prod {
+        background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/microphone.png);
+    }
+    .icon-real.cloud {
+        background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/cloud-computing.png);
+    }
+    .icon-real.contrat {
+        background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/document.png);
+    }
+    .icon-real.diff {
+        background-image: url(/SWAN-MUSIC/RESSOURCES/iconesReal/volume.png);
+    }
+    .ttr-cont {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid #333; */
+    }
+    .ttr-cont h4 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .ttr-cont  p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        letter-spacing: 0px;
+        text-transform: none;
+
     }
 
     /* Autre Activites */
@@ -1242,6 +1326,26 @@ body {
         .autres-activites-container h3 {
             margin: 45px 40px 50px;
             font-size: 32px;
+        }
+        .process-cont h3 {
+            font-size: 33px;
+            margin-bottom: 40px;
+            padding-top: 50px;
+           
+            letter-spacing: 3px;
+        }
+        .icon-real {
+            width: 80px;
+            height: 100px;
+        }
+        .ttr-cont h4 {
+            font-size: 19px;
+        }   
+        .ttr-cont  p {
+            font-size: 14px;
+        }
+        .list-process {
+            padding-bottom: 0px;
         }
     }
     @media screen and (max-width:320px){
