@@ -191,7 +191,9 @@ body {
     align-items: center;
     margin-top: 15px;
 }
-
+.media-link {
+    text-decoration: none;
+}
 .media {
     display: flex;
     justify-content: center;
@@ -211,10 +213,16 @@ body {
     -ms-filter:none;
     filter: none;
 }
+.fab {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
 
 .icone-medias1{
     width: 30px;
     border-radius: 50%;
+    color: #fff;
 }
 
 .icone-medias2{
@@ -235,6 +243,14 @@ body {
     font-family: serif;
     font-size: 11px;
 
+}
+.mention-legal{
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+    transition: color 0.4s ease-in-out;
+}
+.mention-legal:hover {
+    color: rgb(210, 204, 204);
 }
 
 /* -- Media NAV BAR ---- */
@@ -864,7 +880,7 @@ body {
 .cont-img-real.two {
    
     background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
-    background-position: center top -50px
+    background-position: center top -50px;
     
 }
 .cont-img-real.three {
@@ -924,21 +940,32 @@ body {
     text-align: justify;
 }
 
-
+.link-bottom-carte {
+    text-decoration: none;
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+    height: auto;
+    cursor: pointer;
+    color: #000000;
+    filter: opacity(0.4);
+    transition : all 0.3s ease;
+}
 .btn-carte {
     display: block;
     margin: 10px auto 3px auto;
     width: 20px;
     height: 20px;
-    border: 2px solid #c2c4c6;
+    border: 2px solid #000000;
     line-height: 16px;
     text-align: center;
-    color: #c2c4c6;
+    /* color: #c2c4c6; */
     text-decoration: none;
     border-radius: 1px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    
     
 }
 .span-btn-carte {
@@ -947,14 +974,13 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
-    color:#c2c4c6;
+    /* color:#c2c4c6; */
     text-decoration: none;
-    transition: color 0.3s ease-out;
+   
 }
-.span-btn-carte:hover {
-    color: #000000;
+.link-bottom-carte:hover {
+    filter: opacity(0.7);
 }
-
 /* ---- Nos Clients ----*/
 
 .client-logo-cont {
@@ -1431,13 +1457,33 @@ body {
         
         width: 100%;
         height: 355px;
-       
         overflow: hidden;
-        background-image: url(/RESSOURCES/First-interior-view-1.jpg);
         background-size: cover;
         background-position: center;
-
     }
+    .post-single-illu.tour-first{
+        background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+    }
+    .post-single-illu.tour-plaza{
+        background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+        background-position: center -240px;
+    }
+    .post-single-illu.arc-de-seine{
+        background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
+    }
+    .post-single-illu.opera-victoire{
+        background-image: url(/RESSOURCES/Opera\ victoir.jpg);
+    }
+    .post-single-illu.cognac-1719{
+        background-image: url(/RESSOURCES/1719\ cognac.jpeg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+    }
+    .post-single-illu.eh-universo{
+        background-image: url(/RESSOURCES/eh\ universo.jpg);
+    }
+
+
     .article-cont{
         display: flex;
 
@@ -1922,35 +1968,7 @@ body {
 }
 
 
-.btn-carte {
-    display: block;
-    margin: 10px auto 3px auto;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #c2c4c6;
-    line-height: 16px;
-    text-align: center;
-    color: #c2c4c6;
-    text-decoration: none;
-    border-radius: 1px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    
-}
-.span-btn-carte {
-    /* display: inline-block; */
-    padding: 0 auto 0 auto;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    color:#c2c4c6;
-    text-decoration: none;
-    transition: color 0.3s ease-out;
-}
-.span-btn-carte:hover {
-    color: #000000;
-}
+
 /*  Media Page Actualité */
 
 @media screen and (max-width: 860px){
@@ -2150,4 +2168,16 @@ body {
         
     }
     
+}
+
+/* ---- Page Mention Legal ------ */
+
+.content-container.legal {
+    align-items: flex-start;
+    
+    
+}
+.p-mention-legal {
+    text-align: center;
+    padding-top: 60px;
 }
