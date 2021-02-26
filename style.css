@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700&display=swap');
+
 *, ::after, ::before {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +7,8 @@
 }
 
 body {
-    font-family: 'steelfishregular','Poppins', sans-serif;
+    font-family: 'Big Shoulders Display','Poppins', sans-serif;
+    
     background: #f1f1f1;
     height: 100vh;
     
@@ -133,7 +136,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'steelfishregular', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
     transition: all 0.2s ease-out;
@@ -464,12 +467,15 @@ body {
 }
 .mh-container h2{
     font-size: 69px;
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     color: #f1f1f1;
-    font-weight: 100;
+    font-weight: 400;
     padding-top: 20px;
     margin: 10px 0 15px 0;
 
+}
+.mh-container .title-home {
+    font-size: 60px;
 }
 .mh-container p {
     font-size: 20px;
@@ -516,7 +522,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-    font-family: 'steelfishregular', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -570,6 +576,9 @@ body {
         font-size: 60px;
         letter-spacing: 13px;
         padding: 0 20px;
+    }
+    .mh-container .title-home {
+        font-size: 50px;
     }
 }
 @media screen and ( max-width: 860px) {
@@ -664,6 +673,9 @@ body {
      .burger-container {
         left: 87%;
     }
+    .mh-container .title-home {
+        font-size: 40px;
+    }
 }
 @media screen and ( max-width: 500px) {
     .main-content {
@@ -710,6 +722,12 @@ body {
     
     .burger-container {
         left: 75%;
+    }
+    .mh-container .title-home {
+        font-size: 30px;
+    }
+    .mh-container p {
+        font-size: 14px;
     }
 }
 @media screen and ( max-width: 290px) {
@@ -779,7 +797,7 @@ body {
 .top-real {
    
     width: 100%; 
-    height: 40vh;
+    height: 32vh;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -795,7 +813,7 @@ body {
 
 .mh-container.real p {
     color: black;
-    width: 60%;
+    width: 80%;
     margin: 0px auto;
     font-size: 16px;
 }
@@ -822,7 +840,7 @@ body {
 .cont-real-carte h2 {
     padding-top: 40px;
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 5px;
     margin-bottom: 20px;
     
@@ -877,45 +895,22 @@ body {
     background-image: url(/RESSOURCES/First-interior-view-1.jpg);
 }
 
-.cont-img-real.two {
-   
+.cont-img-real.two {   
     background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
-    background-position: center top -50px;
-    
+    background-position: center top -50px;  
 }
 .cont-img-real.three {
-   
     background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
-    
-
 }
 .cont-img-real.four {
-    
     background-image: url(/RESSOURCES/Opera\ victoir.jpg);
-   
-
 }
 .cont-img-real.five {
-    width: 100%;
-    height: 165px;
-    background-image: url(/RESSOURCES/1719\ cognac.jpeg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center top -25px;
-    overflow: hidden;
-    border-bottom: 1px solid #d5bd99;
-
+    background-image: url(/RESSOURCES/Cognac\ 1719.jpg);
+    filter: opacity(0.9);
 }
-.cont-img-real.six {
-    width: 100%;
-    height: 165px;
-    background-image: url(/RESSOURCES/eh\ universo.jpg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center top -25px;
-    overflow: hidden;
-    border-bottom: 1px solid #0e273b;
-
+.cont-img-real.six {  
+    background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
 }
 .cartes-container .link-top-carte {
     text-decoration: none;
@@ -926,7 +921,8 @@ body {
 .cartes-container .item h3 {
     /* margin: 10px ; */
     padding: 10px 10px 0;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 600;
     letter-spacing: 2px;
     text-align: center;
     
@@ -959,6 +955,7 @@ body {
     border: 2px solid #000000;
     line-height: 16px;
     text-align: center;
+    font-weight: bolder;
     /* color: #c2c4c6; */
     text-decoration: none;
     border-radius: 1px;
@@ -991,14 +988,18 @@ body {
 }
 .client-logo-cont h3 {
     font-size: 50px;
-    margin: 30px 0 30px;
-    font-weight: 100;
+    margin: 30px 0 10px;
+    font-weight: 400;
     letter-spacing: 3px;
     display: block;
     padding: 20px;
 }
+.client-logo-cont hr {
+    width: 120px;
+    margin: 0px auto;
+}
 .list-client-logo {
-    width: 60%;
+    width: 80%;
     height: auto;
     margin: 0px auto;
     padding: 40px 10px;
@@ -1012,17 +1013,27 @@ body {
     width: 140px;
     height: 140px;
     /* background-color: aliceblue; */
-    margin: 20px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo-cont img {
-    width: 70%;
+    width: 100%;
     filter: grayscale(1);
 }
 
 /* Media Realisation */
+
+@media screen and (max-width: 1200px){
+    .list-client-logo{
+        width: 80%; 
+    }
+    .top-real {
+        height: 28vh;
+    }
+}
 
 @media screen and (max-width: 860px) {
 
@@ -1032,6 +1043,12 @@ body {
     }
     .cartes-container .item h3 {
         font-size: 22px;
+    }
+    .list-client-logo{
+        width: 100%; 
+    }
+    .logo-cont img {
+        width: 100%;
     }
 }
 
@@ -1084,22 +1101,24 @@ body {
     }
     .mh-container.acti {
         height: auto;
+        
     }
     p.p-acti-1{
         text-align: justify;
         margin: 0 150px;
         font-size: 17px;
+       
     }
     .mission-container {
-        width: 50%;
+        width: 70%;
         height: 350px;
         margin: 40px auto 10px auto;  
     }
     .mission-container h3{
         font-size: 30px;
-        font-weight: 100;
+        font-weight: 500;
         text-align: center;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         margin-bottom: 35px;
         text-transform: uppercase;
     }
@@ -1120,6 +1139,7 @@ body {
         display:flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         margin: 10px auto 20px;
         text-align: center;
         list-style-type: none;
@@ -1135,10 +1155,19 @@ body {
     .carte-pres-acti {
         width: 100%;
         height: 180px;
+        background-size: 100%;
+       background-repeat: no-repeat;
+       background-position: center -40px;
+       filter: grayscale(0.7);  
     }
-    .carte-pres-acti img {
-        width: 100%;
-        filter: grayscale(0.7);
+    .carte-pres-acti.one {
+        background-image: url('https://images.unsplash.com/photo-1611532736579-6b16e2b50449?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80');
+    }
+    .carte-pres-acti.two {
+       background-image: url('https://images.unsplash.com/photo-1477420294412-93659e9347b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+    }
+    .carte-pres-acti.three {
+        background-image: url('https://images.unsplash.com/photo-1511499271651-073325718d90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80');
     }
     .acti-pres-title {
         display: flex;
@@ -1146,19 +1175,21 @@ body {
         align-items: center;
         height: 60px;
         font-size: 25px;
-        letter-spacing: 3px;
-        font-weight: 100;
-        margin: 20px 0;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin: 10px 0;
 
     }
     .acti-pres-content{
         height: 140px;
+        
     }
     .acti-pres-content p{
         font-family: 'PTSerif', serif;
         font-size: 15px;
         text-align: justify;
         line-height: 20px;
+        padding: 0 5px 20px;
     }
     
     /* --- PROCESSUS --- */
@@ -1170,12 +1201,12 @@ body {
         text-align: center;
     }
     .process-cont h3 {
-        font-size: 35px;
-        font-weight: 100;
+        font-size: 38px;
+        font-weight: 400;
         margin-bottom: 60px;
-        padding-top: 50px;
+        padding-top: 30px;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
     .list-process {
         width: 100%;
@@ -1249,7 +1280,7 @@ body {
     .autres-activites-container h3{
         font-size: 50px;
         text-transform: uppercase;
-        font-weight: 100;
+        font-weight: 400;
         letter-spacing: 4px;
         margin: 45px 0 70px 0;
         text-align: center;
@@ -1288,7 +1319,7 @@ body {
     .cont-item-acti h4{
         text-align: center;
         font-size: 30px;
-        font-weight: 100;
+        font-weight: 400;
         letter-spacing: 2px;
     }
     .cont-item-acti p {
@@ -1332,14 +1363,29 @@ body {
         .autres-activites-container {
           height: auto;
         }
+       
     }
+    @media screen and (max-width: 930px){
+        .mission-container{
+            width: 85%;
+        }
+    }
+    
     @media screen and (max-width: 860px){
         .autres-activites-container h3{
             font-size: 45px;
             margin: 45px 80px 70px 80px;
         }
+        .mission-container{
+            width: 70%;
+        }
     }
-    @media screen and (max-width: 430px){
+    @media screen and (max-width: 710px){
+        .mission-container{
+            width: 85%;
+        }
+    }
+    @media screen and (max-width: 500px){
         .p-acti-1{
             margin: 25px 0 10px;
         }
@@ -1347,7 +1393,7 @@ body {
             margin: 5px 5px 0;
         }
         .mission-container{
-            height: 390px;
+            height: 360px;
         }
         .autres-activites-container h3 {
             margin: 45px 40px 50px;
@@ -1376,7 +1422,10 @@ body {
     }
     @media screen and (max-width:320px){
         .mission-container{
-            height: 470px;
+            height: 420px;
+        }
+        .carte-pres-acti{
+            height: 130px;
         }
     }
 
@@ -1447,10 +1496,10 @@ body {
         text-transform: uppercase;
         font-size: 40px;
         line-height: 1;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
         color: #070f13;
         margin-bottom: 32px;
-        font-weight: 100;
+        font-weight: 400;
 
     }
     .post-single-illu {
@@ -1475,12 +1524,11 @@ body {
         background-image: url(/RESSOURCES/Opera\ victoir.jpg);
     }
     .post-single-illu.cognac-1719{
-        background-image: url(/RESSOURCES/1719\ cognac.jpeg);
-        background-size: 40%;
-        background-repeat: no-repeat;
+        background-image: url(/RESSOURCES/Cognac_1719_2.jpg);
+        /* filter: opacity(0.8); */
     }
     .post-single-illu.eh-universo{
-        background-image: url(/RESSOURCES/eh\ universo.jpg);
+        background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
     }
 
 
@@ -1826,8 +1874,6 @@ body {
 }
 
 .cont-real-carte.actu h2 {
-   
-   
     padding-top: 10px;
     font-size: 70px;
     letter-spacing: 14px;
@@ -1900,25 +1946,23 @@ body {
 
 }
 .cont-img-real.actu.five {
-    width: 100%;
-    height: 250px;
-    background-image: url(/RESSOURCES/1719\ cognac.jpeg);
-    background-size: 70%;
+    /* width: 100%;
+    height: 250px; */
+    background-image: url(/RESSOURCES/Cognac_1719_2.jpg);
+    /* background-size: 70%;
     background-repeat: no-repeat;
     background-position: center top 30px ;
     overflow: hidden;
-    border-bottom: 1px solid #d5bd99;
+    border-bottom: 1px solid #d5bd99; */
 
 }
 .cont-img-real.actu.six {
-    width: 100%;
-    height: 250px;
-    background-image: url(/RESSOURCES/eh\ universo.jpg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center top 20px;
-    overflow: hidden;
-    border-bottom: 1px solid #0e273b;
+    /* width: 100%;
+    height: 250px; */
+    background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
+    
+    background-position: center;
+   
 
 }
 .cartes-container .link-top-carte {
@@ -2118,7 +2162,7 @@ body {
 .header-contact h2 {
     font-size: 69px;
     letter-spacing: 4px;
-    font-weight: 100;
+    font-weight: 400;
     margin-bottom: 30px;
     padding-top: 20px;
 }
