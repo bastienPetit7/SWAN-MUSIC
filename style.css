@@ -1600,6 +1600,11 @@ body {
         position: relative;
        
       }
+    .player-container iframe {
+        position: relative;
+        left: -23px;
+    }
+    
       
       /* Lecteur Audio Progress */
 
@@ -1684,7 +1689,7 @@ body {
 
       .player-controls {
           position: absolute;
-          left: 18px;
+          left: 23px;
           width: 20px;
           height: 100%;
           margin-right: 5px;
