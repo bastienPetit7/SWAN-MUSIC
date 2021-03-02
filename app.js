@@ -41,6 +41,9 @@ const loadStart = document.getElementById('on-load');
 
 let isPlaying = false; 
 
+// Onload
+music.play();
+
 
 // Play 
 
