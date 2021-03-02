@@ -34,6 +34,7 @@ const playBtn = document.getElementById('play');
 const volumeRange = document.getElementById('volume-control-container'); 
 const volumeBar = document.getElementById('volume'); 
 const volumeIcon = document.getElementById('volume-logo');
+const loadStart = document.getElementById('on-load');
 
 
 // Check if playing 
@@ -154,3 +155,4 @@ music.addEventListener('timeupdate', updateProgressBar);
 progressContainer.addEventListener('click', setProgressBar); 
 volumeRange.addEventListener('click', changeVolume); 
 volumeIcon.addEventListener('click', toggleMute);
+// loadStart.addEventListener('click', () => music.preload='auto'); 
