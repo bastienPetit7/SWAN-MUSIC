@@ -1161,7 +1161,7 @@ body {
        filter: grayscale(0.7);  
     }
     .carte-pres-acti.one {
-        background-image: url('https://images.unsplash.com/photo-1611532736579-6b16e2b50449?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80');
+        background-image: url('https://images.unsplash.com/photo-1584882793511-33ac865aedb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     }
     .carte-pres-acti.two {
        background-image: url('https://images.unsplash.com/photo-1477420294412-93659e9347b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
@@ -1765,7 +1765,12 @@ body {
     .post-single-illu {  
         height: 260px; 
         background-position: center top -170px;
-
+    }
+    .post-single-illu.cognac-1719 {
+        background-position: center;
+    }
+    .post-single-illu.eh-universo {
+        background-position: center;
     }
         
     .ps-article {
@@ -1811,7 +1816,21 @@ body {
     .post-single-illu {  
         height: 200px; 
         background-position: center top -40px;
-
+    }
+    .post-single-illu.tour-plaza {
+        background-position: center -75px;
+    }
+    .post-single-illu.arc-de-seine {
+        background-position: center ;
+    }
+    .post-single-illu.cognac-1719 {
+        background-position: center -10px ;
+    }
+    .post-single-illu.opera-victoire {
+        background-position: center  ;
+    }
+    .post-single-illu.eh-universo {
+        background-position: center;
     }
     .ps-title{
         font-size: 26px;
@@ -2053,7 +2072,7 @@ body {
         margin-bottom: 20px;
     }
 }
-@media screen and ( max-width: 415px) {
+@media screen and ( max-width: 420px) {
     .cartes-container .item.actu {
         width: 100%;
         height: 423px;
@@ -2064,12 +2083,13 @@ body {
     } */
     .cont-img-real.actu {
         height: 160px;
+        /* box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.8); */
     }
     .cont-img-real.actu.one{
-       background-position: center top -50px;
+       background-position: center top -80px;
     }
     .cont-img-real.actu.two{
-        background-position: center top -90px;
+        background-position: center top -110px;
     }
      .cont-img-real.actu.three{
         background-position: center top -20px;
@@ -2079,12 +2099,12 @@ body {
     }
     .cont-img-real.actu.five {
         height: 160px;
-        background-size: 60%;
+        background-size: 100%;
         background-position: center top -30px ;
     }
     .cont-img-real.actu.six {
         height: 160px;
-        background-size: 60%;
+        background-size: 100%;
         background-position: center top -30px ;
     }
     .btn-carte {
