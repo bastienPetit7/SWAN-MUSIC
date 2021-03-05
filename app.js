@@ -94,7 +94,7 @@ function updateProgressBar(e) {
         if ( currentSeconds < 10){
             currentSeconds = `0${currentSeconds}`; 
         }
-        currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`;
+        currentTimeEl.textContent = `${currentMinutes}:${currentSeconds} /`;
     }
 
 }

@@ -1782,7 +1782,8 @@ body {
     .extrait {
         margin: 10px 0 0 10px;
         padding-left: 25px;
-    }        
+    }   
+         
     .volume-container{
         display: none;
     }
@@ -1836,6 +1837,24 @@ body {
     .ps-title{
         font-size: 26px;
         margin: 0 15px 28px 15px;
+    }
+    .player-container{
+        width: 320px;
+        height: 30px;
+    }
+    .player-controls{
+        line-height: 25px;
+    }
+    .duration-wrapper{
+        line-height: 30px;
+        margin-left:18px;
+    }
+    .all-progress-content{
+        width: 180px;
+        margin-left: 0;
+    }
+    .progress-container{
+        width: 180px;
     }
 }
 @media screen and (max-width: 380px) {
