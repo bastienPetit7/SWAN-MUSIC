@@ -420,7 +420,7 @@ body {
 
 .bg-img {
 
-    background-image: url(/RESSOURCES/Grand-Hyatt-Goa-India-3.jpg);
+    background-image: url(/RESSOURCES/accueil_building_2.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -743,7 +743,7 @@ body {
 }
 
 .bg-img.propos {
-    background-image: url(/RESSOURCES/openSpace1.jpg);
+    background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80');
 }
 .bloc-filter.propos {
     background-color: rgba(7,15,19,0.75);
@@ -1167,7 +1167,8 @@ body {
        background-image: url('https://images.unsplash.com/photo-1477420294412-93659e9347b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
     }
     .carte-pres-acti.three {
-        background-image: url('https://images.unsplash.com/photo-1511499271651-073325718d90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80');
+        background-image: url(/RESSOURCES/Enceinte_acti.jpg);
+        background-position: center ;
     }
     .acti-pres-title {
         display: flex;
