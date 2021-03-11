@@ -410,12 +410,8 @@ body {
 .main-content{
     height: 100vh;
     width: calc(100% - 290px);
-    
     position: relative;
-    
     margin-left: auto;
-    
-
 }
 
 .bg-img {
@@ -484,6 +480,7 @@ body {
     font-family: 'PTSerif', serif;
     /* margin-bottom: 5px; */
     letter-spacing: 1px;
+    
 }
 .icon-deco.deco3 {
     color: #f1f1f1 !important;
