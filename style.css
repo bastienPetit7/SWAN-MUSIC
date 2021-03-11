@@ -441,14 +441,16 @@ body {
    
 }
 .content-container .main {
-   
+    /* position: relative;  */
     width: 70%;
     max-width: 750px;
     height: auto;
     /* z-index: 50; */
-    
-    
 }
+.content-container .main.home{
+    top: -100px;
+}
+
 .m-header {
     width: 100%;
     height: auto;
