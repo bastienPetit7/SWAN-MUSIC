@@ -15,9 +15,9 @@ body {
 }
 @font-face {
     font-family: 'steelfishregular';
-    src: url('/RESSOURCES/steelfish_rg-webfont.woff2') format('woff2'),
-         url('/RESSOURCES/steelfish_rg-webfont.woff') format('woff'),
-         url('/RESSOURCES/steelfish_rg.ttf') format('truetype');
+    src: url('RESSOURCES/steelfish_rg-webfont.woff2') format('woff2'),
+         url('RESSOURCES/steelfish_rg-webfont.woff') format('woff'),
+         url('RESSOURCES/steelfish_rg.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 
@@ -416,7 +416,7 @@ body {
 
 .bg-img {
 
-    background-image: url(/RESSOURCES/Accueil\ Building\ Home.jpg);
+    background-image: url(RESSOURCES/Accueil\ Building\ Home.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -891,25 +891,25 @@ body {
 }
 
 .cont-img-real.one {
-    background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+    background-image: url(RESSOURCES/First-interior-view-1.jpg);
 }
 
 .cont-img-real.two {   
-    background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+    background-image: url(RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
     background-position: center top -50px;  
 }
 .cont-img-real.three {
-    background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
+    background-image: url(RESSOURCES/arc\ de\ seine\ interieur.jpg);
 }
 .cont-img-real.four {
-    background-image: url(/RESSOURCES/Opera\ victoir.jpg);
+    background-image: url(RESSOURCES/Opera\ victoir.jpg);
 }
 .cont-img-real.five {
-    background-image: url(/RESSOURCES/Cognac\ 1719.jpg);
+    background-image: url(RESSOURCES/Cognac\ 1719.jpg);
     filter: opacity(0.9);
 }
 .cont-img-real.six {  
-    background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
+    background-image: url(RESSOURCES/eh\ universo\ PAris.jpg);
 }
 .cartes-container .link-top-carte {
     text-decoration: none;
@@ -1166,7 +1166,7 @@ body {
        background-image: url('https://images.unsplash.com/photo-1477420294412-93659e9347b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
     }
     .carte-pres-acti.three {
-        background-image: url(/RESSOURCES/Enceinte_acti.jpg);
+        background-image: url(RESSOURCES/Enceinte_acti.jpg);
         background-position: center ;
     }
     .acti-pres-title {
@@ -1230,7 +1230,7 @@ body {
         width: 100px;
         height: 120px;
 
-        background-image: url(/RESSOURCES/iconesReal/light-bulb.png);
+        background-image: url(RESSOURCES/iconesReal/light-bulb.png);
         background-size: 99%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1241,16 +1241,16 @@ body {
         
     }
     .icon-real.prod {
-        background-image: url(/RESSOURCES/iconesReal/microphone.png);
+        background-image: url(RESSOURCES/iconesReal/microphone.png);
     }
     .icon-real.cloud {
-        background-image: url(/RESSOURCES/iconesReal/cloud-computing.png);
+        background-image: url(RESSOURCES/iconesReal/cloud-computing.png);
     }
     .icon-real.contrat {
-        background-image: url(/RESSOURCES/iconesReal/document.png);
+        background-image: url(RESSOURCES/iconesReal/document.png);
     }
     .icon-real.diff {
-        background-image: url(/RESSOURCES/iconesReal/volume.png);
+        background-image: url(RESSOURCES/iconesReal/volume.png);
     }
     .ttr-cont {
         position: absolute;
@@ -1309,7 +1309,7 @@ body {
         width: 210px;
         height: auto;
         margin: 15px;
-        background: url(/RESSOURCES/iconsAutreActi/music-prod.png);
+        background: url(RESSOURCES/iconsAutreActi/music-prod.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 20%;
@@ -1329,19 +1329,19 @@ body {
         padding-top: 10px;
     }
     .cont-item-acti.i2{
-        background: url(/RESSOURCES/iconsAutreActi/friends.png);
+        background: url(RESSOURCES/iconsAutreActi/friends.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 20%;
     }
     .cont-item-acti.i3{
-        background: url(/RESSOURCES/iconsAutreActi/booking.png);
+        background: url(RESSOURCES/iconsAutreActi/booking.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 20%;
     }
     .cont-item-acti.i4{
-        background: url(/RESSOURCES/iconsAutreActi/DJ.png);
+        background: url(RESSOURCES/iconsAutreActi/DJ.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 20%;
@@ -1511,24 +1511,24 @@ body {
         background-position: center;
     }
     .post-single-illu.tour-first{
-        background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+        background-image: url(RESSOURCES/First-interior-view-1.jpg);
     }
     .post-single-illu.tour-plaza{
-        background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+        background-image: url(RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
         background-position: center -240px;
     }
     .post-single-illu.arc-de-seine{
-        background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
+        background-image: url(RESSOURCES/arc\ de\ seine\ interieur.jpg);
     }
     .post-single-illu.opera-victoire{
-        background-image: url(/RESSOURCES/Opera\ victoir.jpg);
+        background-image: url(RESSOURCES/Opera\ victoir.jpg);
     }
     .post-single-illu.cognac-1719{
-        background-image: url(/RESSOURCES/Cognac_1719_2.jpg);
+        background-image: url(RESSOURCES/Cognac_1719_2.jpg);
         /* filter: opacity(0.8); */
     }
     .post-single-illu.eh-universo{
-        background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
+        background-image: url(RESSOURCES/eh\ universo\ PAris.jpg);
     }
 
 
@@ -1897,7 +1897,7 @@ body {
 
 /* --------- PAGE ACTUALITES ----------- */
 .bg-img.propos.actu {
-    background-image: url(/RESSOURCES/openSpace1.jpg);
+    background-image: url(RESSOURCES/openSpace1.jpg);
     position: fixed;
 }
 .bloc-filter.propos.actu {
@@ -1967,31 +1967,31 @@ body {
 }
 
 .cont-img-real.actu.one {
-    background-image: url(/RESSOURCES/First-interior-view-1.jpg);
+    background-image: url(RESSOURCES/First-interior-view-1.jpg);
 }
 
 .cont-img-real.actu.two {
    
-    background-image: url(/RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
+    background-image: url(RESSOURCES/boma-architectes-defense-plaza-paris-la-defense-boma_dp_01.jpg);
     background-position: center top ;
 
 }
 .cont-img-real.actu.three {
    
-    background-image: url(/RESSOURCES/arc\ de\ seine\ interieur.jpg);
+    background-image: url(RESSOURCES/arc\ de\ seine\ interieur.jpg);
     
 
 }
 .cont-img-real.actu.four {
     
-    background-image: url(/RESSOURCES/Opera\ victoir.jpg);
+    background-image: url(RESSOURCES/Opera\ victoir.jpg);
    
 
 }
 .cont-img-real.actu.five {
     /* width: 100%;
     height: 250px; */
-    background-image: url(/RESSOURCES/Cognac_1719_2.jpg);
+    background-image: url(RESSOURCES/Cognac_1719_2.jpg);
     /* background-size: 70%;
     background-repeat: no-repeat;
     background-position: center top 30px ;
@@ -2002,7 +2002,7 @@ body {
 .cont-img-real.actu.six {
     /* width: 100%;
     height: 250px; */
-    background-image: url(/RESSOURCES/eh\ universo\ PAris.jpg);
+    background-image: url(RESSOURCES/eh\ universo\ PAris.jpg);
     
     background-position: center;
    
