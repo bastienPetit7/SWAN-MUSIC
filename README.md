@@ -6,6 +6,6 @@ SWAN-MUSIC webSite
 
 
 
-Création du nouveau site de SWAN pour le produit "music sur mesure BtoB "
+Création du nouveau site de SWAN pour le produit "musique sur mesure BtoB "
 
 Ma première réalisation Site Web responsive. Langages : HTML, CSS, JavaScript.. 
